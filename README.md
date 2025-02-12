@@ -128,46 +128,10 @@ Ping successful. The server is reachable.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are **welcome**! Feel free to:
-
-1. **Fork** the repository.
-2. **Make your changes**.
-3. **Submit a pull request**.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
-
----
-
-## 👨‍💻 Author
-
-**Aryan Rahman**  
-🔹 Full-Stack Software Engineer from Dhaka, Bangladesh  
-🔹 Currently building **Relearnify.com**  
-
----
-
-## 📞 Contact
-
-- 📧 **Email:** [aryan.rahman@example.com](mailto:aryan.rahman@example.com)
-- 🔗 **LinkedIn:** [Aryan Rahman](https://www.linkedin.com/in/aryanrahman)
-
----
-
-## ⚠️ Disclaimer
-
-> This project is intended for **educational and personal use** only. Use it responsibly and at your own risk.
-
 ### 🔹 Notes:
 - Ensure you have the **necessary permissions** to execute shell scripts.
 - The project is tested on **Ubuntu**, but it should work on **any Linux distribution** with the required dependencies installed.
 
 ---
 
-Happy Coding! 🎉
 
