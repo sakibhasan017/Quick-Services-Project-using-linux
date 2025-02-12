@@ -1,139 +1,173 @@
-Quick-Service-Project-Using_Linux
-Overview
+# Quick-Service-Project-Using_Linux
 
-The Quick-Service-Project-Using_Linux is a Bash-based utility tool that provides several functionalities:
+## Overview
 
-    A Scientific Calculator with advanced mathematical operations.
-    A Rock, Paper, Scissors Game to play against the computer.
-    Time and Date Checker to display the current time and date.
-    Server Testing to check server status by resolving IP addresses and pinging the server.
+The **Quick-Service-Project-Using_Linux** is a Bash-based utility tool that provides several functionalities:
 
-This project is designed to be lightweight, fast, and easy to use within a Linux terminal environment.
-Features
-1. Scientific Calculator
+- 🧮 **Scientific Calculator** with advanced mathematical operations.
+- 🎮 **Rock, Paper, Scissors Game** to play against the computer.
+- ⏳ **Time and Date Checker** to display the current system time and date.
+- 🌐 **Server Testing** to check server status by resolving IP addresses and pinging the server.
 
+This project is designed to be **lightweight**, **fast**, and **easy to use** within a Linux terminal environment.
+
+---
+
+## 🚀 Features
+
+### 1️⃣ Scientific Calculator
 The calculator supports:
 
-    Basic arithmetic: Addition, Subtraction, Multiplication, Division, and Modulo.
-    Advanced functions:
-        Square Root, Power, Logarithm (any base), Factorial.
-        Trigonometric functions: Sine, Cosine, Tangent, and their inverses.
-        Absolute value, Binary, Octal, and Hexadecimal conversions.
-        Recall the previous result.
+- **Basic arithmetic:** Addition, Subtraction, Multiplication, Division, and Modulo.
+- **Advanced functions:**
+  - Square Root, Power, Logarithm (any base), Factorial.
+  - Trigonometric functions: Sine, Cosine, Tangent, and their inverses.
+  - Absolute value, Binary, Octal, and Hexadecimal conversions.
+  - Recall the previous result.
 
-2. Rock, Paper, Scissors Game
+### 2️⃣ Rock, Paper, Scissors Game
 
-    Play against the computer for 5 rounds.
-    The computer randomly selects Rock, Paper, or Scissors.
-    Scores are tracked, and the overall winner is declared at the end.
+- Play against the computer for **5 rounds**.
+- The computer randomly selects **Rock, Paper, or Scissors**.
+- Scores are tracked, and the **overall winner is declared** at the end.
 
-3. Time and Date Checker
+### 3️⃣ Time and Date Checker
 
-    Displays the current system time and date.
+- Displays the **current system time and date**.
 
-4. Server Testing
+### 4️⃣ Server Testing
 
-    Resolves the IP address of a given website.
-    Pings the server to check its reachability.
-    Displays the ping result (successful or failed).
+- Resolves the **IP address** of a given website.
+- Pings the server to check its **reachability**.
+- Displays the **ping result** (successful or failed).
 
-Prerequisites
+---
 
-Make sure the following tools are installed on your Linux system:
+## 📌 Prerequisites
 
-    bash (Bourne Again Shell)
-    bc (Basic Calculator) for mathematical calculations.
-    dig (Domain Information Groper) for DNS lookup.
-    ping for server testing.
+Ensure the following tools are installed on your Linux system:
 
-You can install them using:
-
+```bash
 sudo apt update
 sudo apt install bc dnsutils iputils-ping
+```
 
-Installation
+- `bash` (Bourne Again Shell)
+- `bc` (Basic Calculator) for mathematical calculations.
+- `dig` (Domain Information Groper) for DNS lookup.
+- `ping` for server testing.
+
+---
+
+## 📥 Installation
 
 Clone this repository to your local machine:
 
-git clone https://github.com/your-username/Quick-Service-Project-Using_Linux.git
+```bash
+git clone https://github.com/sakibhasan017/Quick-Service-Project-Using_Linux.git
 cd Quick-Service-Project-Using_Linux
+```
 
 Ensure all shell scripts are executable:
 
+```bash
 chmod +x main.sh calculator.sh RPS_game.sh server_testing.sh time_date.sh
+```
 
-Usage
+---
+
+## ▶️ Usage
 
 Run the main script to start the program:
 
+```bash
 ./main.sh
+```
 
-You will be presented with the following menu:
-
+### 📜 Menu Options:
+```
 We offer the following services for you to choose from:
 1. Calculator
 2. RPS Game
 3. Time and Date
 4. Server Testing
 0. Exit
+```
+#### How to Use:
+- **1** - Launches the **Scientific Calculator**.
+- **2** - Starts the **Rock, Paper, Scissors Game**.
+- **3** - Displays the **current time and date**.
+- **4** - Tests the **server status** by resolving IP and pinging.
+- **0** - Exits the application.
 
-Select the Desired Option:
+---
 
-    1 - Launches the Scientific Calculator.
-    2 - Starts the Rock, Paper, Scissors Game.
-    3 - Displays the current time and date.
-    4 - Tests the server status by resolving IP and pinging.
-    0 - Exits the application.
+## 📂 File Descriptions
 
-File Descriptions
+| File               | Description |
+|--------------------|-------------|
+| `main.sh`         | The main control script that displays the menu and navigates between different services. |
+| `calculator.sh`   | Implements the **Scientific Calculator** with various operations. |
+| `RPS_game.sh`     | A **Rock, Paper, Scissors game** against the computer. |
+| `server_testing.sh` | Tests **server availability** by resolving IP and pinging the server. |
+| `time_date.sh`    | Displays the **current system time and date**. |
 
-    main.sh: The main control script that displays the menu and navigates between different services.
-    calculator.sh: Implements the Scientific Calculator with a variety of operations.
-    RPS_game.sh: A Rock, Paper, Scissors game against the computer.
-    server_testing.sh: Tests server availability by resolving IP and pinging the server.
-    time_date.sh: Displays the current system time and date.
+---
 
-Example
+## 🔍 Example Usage
 
-Example of server testing:
-
+### Example of Server Testing:
+```bash
 Enter server name (e.g., www.google.com): www.google.com
 IP address of www.google.com is: 142.250.190.132
 PING www.google.com (142.250.190.132): 56 data bytes
 64 bytes from 142.250.190.132: icmp_seq=1 ttl=117 time=12.3 ms
 ...
 Ping successful. The server is reachable.
+```
 
-Contributing
+---
 
-Contributions are welcome! Feel free to:
+## 🤝 Contributing
 
-    Fork the repository.
-    Make your changes.
-    Submit a pull request.
+Contributions are **welcome**! Feel free to:
 
-License
+1. **Fork** the repository.
+2. **Make your changes**.
+3. **Submit a pull request**.
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
-Author
+---
 
-Aryan Rahman
-Full-Stack Software Engineer from Dhaka, Bangladesh
-Currently building Relearnify.com
-Acknowledgments
+## 📜 License
 
-Special thanks to the open-source community and Linux enthusiasts for their continuous support and inspiration.
-Contact
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
-For any inquiries or issues, feel free to reach out:
+---
 
-    Email: aryan.rahman@example.com
-    LinkedIn: Aryan Rahman
+## 👨‍💻 Author
 
-Disclaimer
+**Aryan Rahman**  
+🔹 Full-Stack Software Engineer from Dhaka, Bangladesh  
+🔹 Currently building **Relearnify.com**  
 
-This project is intended for educational and personal use only. Use it responsibly and at your own risk.
-Notes
+---
 
-    Ensure you have the necessary permissions to execute shell scripts.
-    The project is tested on Ubuntu, but it should work on any Linux distribution with the required dependencies installed.
+## 📞 Contact
+
+- 📧 **Email:** [aryan.rahman@example.com](mailto:aryan.rahman@example.com)
+- 🔗 **LinkedIn:** [Aryan Rahman](https://www.linkedin.com/in/aryanrahman)
+
+---
+
+## ⚠️ Disclaimer
+
+> This project is intended for **educational and personal use** only. Use it responsibly and at your own risk.
+
+### 🔹 Notes:
+- Ensure you have the **necessary permissions** to execute shell scripts.
+- The project is tested on **Ubuntu**, but it should work on **any Linux distribution** with the required dependencies installed.
+
+---
+
+Happy Coding! 🎉
+
